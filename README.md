@@ -107,6 +107,8 @@ You can either test the generated open wrapper tag in your local dev/test enviro
 
 These are the parameters which will be part of the standard wrapper configuration and should be defined outside the partner level configurations.
 
+**Analytics endpoint should be CORS compliant, as we will send data in POST : OPenWrap Github**
+
 | Config | Value| Mandatory| Explanation| Input Source|
 | --- | --- | --- | --- | --- |
 | Key Name | <span style="color: rgb(84,84,84);">pub_id</span> | Y | <span>This ID is used as a global identifier for logging analytics data. Value for this parameter should be the ID of the publisher account on the platform used for logging. </span> | <span>Publisher Provided</span> |
